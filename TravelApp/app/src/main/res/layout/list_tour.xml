@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/searchViewtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageviewTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textviewTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:hint="trips"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageviewLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewNote"
+        android:layout_width="match_parent"
+        android:layout_height="583dp" >
+    </ListView>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageviewHome"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageviewMyTour"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageviewMap"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageviewNotification"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageviewSetting"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center" />
+    </TableRow>
+
+</LinearLayout>

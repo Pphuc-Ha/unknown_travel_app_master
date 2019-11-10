@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:id = "@+id/imageviewTour"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:id = "@+id/imageviewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textColor="#ff00"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:id="@+id/textviewLocation"
+            android:hint="Địa điểm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:id = "@+id/imageviewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textColor="#ff00"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:id="@+id/textviewTime"
+            android:hint="Ngày đi - ngày đến"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:id = "@+id/imageviewPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textColor="#ff00"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:id="@+id/textviewPeople"
+            android:hint="Người"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:id = "@+id/imageviewCost"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textColor="#ff00"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:id="@+id/textviewCost"
+            android:hint="Giá"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
